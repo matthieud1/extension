@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Fortune of the Day",
+    "version": "1.0",
+    "description": "Displays a different fortune every day",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "background": {
+      "script": ["js/popup.js"]
+    },
+    "action": {
+      "default_popup": "html/popup.html"
+    }
+  }
